@@ -1,0 +1,152 @@
+:root {
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elemento base*/
+body{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/lucifer.jpg');
+    font-family: 'Arial', Times, serif;
+    color: white;
+    
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+.botao-assine {
+    text-decoration: none;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding:10px 55px;
+    margin-right: 15px;
+    font-size: 14px;
+    border-radius:5%;
+    border-color: var(--preta);
+    
+    cursor: pointer;
+    
+}
+
+.botao-entrar {
+    text-decoration: none;
+    background: var(--preta);
+    margin: 0px;
+    color: white;
+
+    padding:10px 40px;
+    margin-right: 15px;
+    font-size: 14px;
+    border-radius: 5%;
+    border-color: #ffffff6b;
+
+}
+
+header nav button:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/**Filme principal**/
+.filme-principal{
+    font-size: 15px;
+    height: 700px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.filme-principal .desc {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.botao {
+    text-decoration: none;
+    background: rgb(255, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding:10px 55px;
+    margin-right: 15px;
+    font-size: 14px;
+    border-radius:3%;
+    border: red;
+}
+
+.botao:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme {
+    margin-bottom: 0;
+    margin-top: 5px;
+    image-rendering: 341px, 192px;
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.melhores-filmes {
+    height: 30px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
